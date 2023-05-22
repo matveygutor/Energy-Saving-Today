@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #6c7279;
+    -webkit-font-smoothing: antialiased;
+
+    background-color: #eeeaf2;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+
+/* Container
+===================*/
+
+.testcontainer {
+
+    padding: 10px 15px;
+    background-color: #fff;
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto;
+    padding-bottom: 15px;
+    border: solid 1px gainsboro;
+    border-radius: 10px;
+    
+}
+
+/* Question
+===================*/
+
+.question {
+    margin: 15px 15px;
+    font-size: 16px;
+    color: #2d3033;
+}
+
+/* Answer
+==================*/
+.answer {
+    margin: 10px 0;
+    color: #6c7279;
+    font-size: 14px;
+}
+
+
+/* Custom-radio
+===================*/
+
+.custom-radio {
+    margin: 4px 15px;
+
+}
+
+/* resultMessage
+===================*/
+
+.resultMessage {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+/* Button
+===================*/
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 40px;
+
+    border-radius: 2px;
+    border: 0;
+    cursor: pointer;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+
+    transition: background .1s linear;
+}
+
+.btn--red {
+    background-color: #304040;
+}
+
+.btn--red:hover {
+    background-color: #6c7279;
+}
+
+.btn--long {
+    min-width: 280px;
+}
+
+
+/* Download
+===================*/
+
+.download {
+    margin: 90px 0;
+
+    text-align: center;
+}
+
+.download__title {
+    margin-bottom: 10px;
+
+    font-size: 20px;
+    color: #2d3033;
+    font-weight: 300;
+}
+
+.download__text {
+    margin-bottom: 30px;
+
+    font-size: 16px;
+    color: #2d3033;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+@media (max-width: 991px) {
+    
+    
+    .testcontainer {
+        margin-left: auto;
+        margin-right: auto;
+        width: 370px;
+        
+    }
+
+    .question {
+        font-size: 14px;
+    }
+
+    .answer {
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+
+
